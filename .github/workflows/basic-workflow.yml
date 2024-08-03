@@ -3,10 +3,10 @@
 name: GitHub actions demo
 run-name: Testing our Github actions 
 
-on: [push]
+on:[push]
 
 jobs:
   basic_workflow:
-    runs-in: ubuntu-latest
-    stepa:
-      - run: echo "Job basic workflow is executing as part of new workflow"
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Job basic_workflow is executing as part of new workflow"
